@@ -94,6 +94,10 @@
 
 @media screen and (max-width: 768px) {
   main {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    height: 100%;
     align-items: center;
     text-align: center; }
     main .lg-heading {
@@ -122,7 +126,14 @@
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 5vh; } }
+    margin-top: 10vh; }
+    main#home h1.lg-heading {
+      font-size: 4.5rem; }
+  main#home {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    height: 100%; } }
 
 * {
   box-sizing: border-box; }
