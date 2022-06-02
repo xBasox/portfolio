@@ -1,6 +1,6 @@
-@import 'config';
-@import 'menu';
-@import 'mobile';
+@import "config";
+@import "menu";
+@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -62,7 +62,10 @@ main {
     }
   }
 
-  &#home {
+  &#home,
+  &#contact,
+  &#work,
+  &#about {
     overflow: hidden;
     h1 {
       margin-top: 20vh;
@@ -73,9 +76,9 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 
-  'bioimage bio bio'
-  'job1 job2 job3';
+  grid-template-areas:
+    "bioimage bio bio"
+    "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
 }
 

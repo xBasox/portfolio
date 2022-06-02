@@ -57,7 +57,7 @@
       width: 35vh;
       border-radius: 50%;
       background: url(../img/profilePic.jpg);
-      background-size: contain;
+      background-size: cover;
       border: solid 3px #ee1a6f; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
@@ -119,8 +119,8 @@
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(../img/smallerProfilePic.jpg);
-      background-size: contain;
+      background: url(../img/profilePic.jpg);
+      background-size: cover;
       width: 150px;
       height: 150px; }
   #home h1,
@@ -207,15 +207,15 @@ main {
       main .icons a:hover {
         color: #ee1a6f;
         transition: all 0.3s ease-out; }
-  main#home {
+  main#home, main#contact, main#work, main#about {
     overflow: hidden; }
-    main#home h1 {
+    main#home h1, main#contact h1, main#work h1, main#about h1 {
       margin-top: 20vh; }
 
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
 
 .bio-image {
