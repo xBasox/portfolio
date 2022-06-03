@@ -139,13 +139,13 @@ main {
 
   div {
     font-size: 1.2rem;
-    border: 2px #fff solid;
+    border: 1.2px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     @include easeOut;
     
     &:hover {
-      padding: 1rem 2rem;
+      padding: 1.2rem 2.2rem;
       background: $secondary-color;
       color: set-text-color($secondary-color);
       span {
