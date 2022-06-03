@@ -14,7 +14,7 @@
   main {
     padding-left: 4rem;
     padding-right: 4rem;
-    padding-top: 1rem;
+    padding-top: 5rem;
     height: 100%;
     align-items: center;
     text-align: center;
@@ -56,16 +56,27 @@
   #home h1,
   #about h1,
   #work h1,
-  #contact h1.lg-heading {
+  #contact &.lg-heading {
     font-size: 4.5rem;
   }
 
-  #home h1.sm-heading {
-    font-size: 0;
+  #home &.sm-heading {
+    font-size: 1.4rem;
   }
 
   main#home h1 {
     padding-top: 5vh;
+  }
+
+  .about-info {
+    grid-template-areas: 
+    'bioimage'
+    'bio'
+    'job1'
+    'job2'
+    'job3';
+
+    grid-template-columns: 1fr;
   }
 }
 
