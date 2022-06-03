@@ -210,7 +210,7 @@ main {
     margin-bottom: 3rem;
     transition: all 0.3s ease-out; }
     .boxes div:hover {
-      padding: 0.5rem 1.5rem;
+      padding: 1rem 2rem;
       background: #ee1a6f;
       color: #000; }
       .boxes div:hover span {
@@ -286,9 +286,9 @@ main {
   #contact .lg-heading {
     font-size: 4.5rem; }
   #home .sm-heading {
-    font-size: 1.4rem; }
+    font-size: 1.2rem; }
   main#home h1 {
-    padding-top: 5vh; }
+    padding-top: 6vh; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
