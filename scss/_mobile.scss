@@ -3,10 +3,17 @@
   main#home h1 {
     padding-top: 10vh;
   }
+
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 // Desktops & Laptops
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 // Tablets & Small Laptops
@@ -78,6 +85,10 @@
 
     grid-template-columns: 1fr;
   }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 // SmartPhones
@@ -90,5 +101,9 @@
     padding-right: 4rem;
     padding-top: 5rem;
     height: 100%;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
   }
 }
