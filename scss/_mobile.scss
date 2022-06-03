@@ -1,5 +1,8 @@
 // WideScreens
 @include mediaXl {
+  main#home h1 {
+    padding-top: 10vh;
+  }
 }
 
 // Desktops & Laptops
@@ -53,11 +56,16 @@
   #home h1,
   #about h1,
   #work h1,
-  #contact h1 {
-    margin-top: 10vh;
-    &.lg-heading {
-      font-size: 4.5rem;
-    }
+  #contact h1.lg-heading {
+    font-size: 4.5rem;
+  }
+
+  #home h1.sm-heading {
+    font-size: 0;
+  }
+
+  main#home h1 {
+    padding-top: 5vh;
   }
 }
 
@@ -69,7 +77,7 @@
   main#contact {
     padding-left: 4rem;
     padding-right: 4rem;
-    padding-top: 1rem;
+    padding-top: 5rem;
     height: 100%;
   }
 }

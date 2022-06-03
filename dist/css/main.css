@@ -92,6 +92,10 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+@media screen and (min-width: 1171px) {
+  main#home h1 {
+    padding-top: 10vh; } }
+
 @media screen and (max-width: 768px) {
   main {
     padding-left: 4rem;
@@ -126,13 +130,12 @@
   #home h1,
   #about h1,
   #work h1,
-  #contact h1 {
-    margin-top: 10vh; }
-    #home h1.lg-heading,
-    #about h1.lg-heading,
-    #work h1.lg-heading,
-    #contact h1.lg-heading {
-      font-size: 4.5rem; } }
+  #contact h1.lg-heading {
+    font-size: 4.5rem; }
+  #home h1.sm-heading {
+    font-size: 0; }
+  main#home h1 {
+    padding-top: 5vh; } }
 
 @media screen and (max-width: 500px) {
   main#home,
@@ -141,7 +144,7 @@
   main#contact {
     padding-left: 4rem;
     padding-right: 4rem;
-    padding-top: 1rem;
+    padding-top: 5rem;
     height: 100%; } }
 
 * {
@@ -210,7 +213,7 @@ main {
   main#home, main#contact, main#work, main#about {
     overflow: hidden; }
     main#home h1, main#contact h1, main#work h1, main#about h1 {
-      margin-top: 20vh; }
+      margin-top: 10vh; }
 
 .about-info {
   display: grid;
