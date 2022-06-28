@@ -125,7 +125,7 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 6rem; }
+    font-size: 4.5rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -284,9 +284,12 @@ main {
   #about h1,
   #work h1,
   #contact .lg-heading {
-    font-size: 4.5rem; }
-  #home .sm-heading {
-    font-size: 1.2rem; }
+    font-size: 3rem; }
+  #home,
+  #about,
+  #work,
+  #contact .sm-heading {
+    font-size: 1rem; }
   main#home h1 {
     padding-top: 6vh; }
   .about-info {
