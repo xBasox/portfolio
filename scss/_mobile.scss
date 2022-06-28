@@ -64,11 +64,14 @@
   #about h1,
   #work h1,
   #contact &.lg-heading {
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
 
-  #home &.sm-heading {
-    font-size: 1.2rem;
+  #home,
+  #about,
+  #work,
+  #contact &.sm-heading {
+    font-size: 1rem;
   }
 
   main#home h1 {
