@@ -191,7 +191,7 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 2px #fff solid; }
+    border: 1px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #ee1a6f;
@@ -220,10 +220,11 @@ main {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
-  margin-bottom: 0.3rem; }
+  margin-bottom: 1.5rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #ee1a6f;
-    color: #000; }
+    color: #000;
+    transition: all 0.3s ease-out; }
 
 .btn-dark {
   background: black;
